@@ -1,0 +1,21 @@
+{
+    "name": "warmorange-theme",
+    "displayName": "warmorange-theme",
+    "description": "A warmy VSCode theme, mainly focused for JavaScript    ",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.67.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "warmorange-theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/warmorange-theme-color-theme.json"
+            }
+        ]
+    }
+}
